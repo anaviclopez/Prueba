@@ -21,10 +21,10 @@ class Circulo():
         self.__x = value
     
     def perimetro(self):
-        return 2*Circulo.PI*radio
+        return 2*Circulo.PI*self.__x
 
     def area(self):
-        return Circulo.PI*radio*radio
+        return Circulo.PI*self.__x*self.__x
     def String(self):
-        return print('Circulo [radio=' + str(radio) + '] ')
+        return print('Circulo [radio=' + str(self.__x) + '] ')
 
